@@ -4,15 +4,16 @@ export default function Landing() {
   return (
     <>
 
-        <div className="d-flex justify-content-between hambozo   w-100 flex-column flex-md-row">
+        <div className="d-flex justify-content-center hambozo   my-auto w-100 flex-column flex-md-row">
 
-     <div className="d-flex justify-content-between  left  order-2 order-md-1   mx-auto flex-column align-items-center "  style={{ 
+     <div className="  position-relative # left  d-flex justify-content-center align-items-center  order-2 order-md-1 mx-auto  "  style={{ 
+      
               
               width: "23%" 
             
             }}>
            <div
-            className="mt-md-5 pt-md-5"
+            className="my-auto "
            
           >
 
@@ -24,8 +25,8 @@ export default function Landing() {
               className="text-dark my-4"
               style={{
                 fontFamily: "SF Pro Display",
-                fontSize: 20,
-                lineHeight: "160%"
+                  fontSize: 20,
+                lineHeight: "160%"  
               }}
             >
               Today is a new day. It's your day. You shape it.
@@ -134,7 +135,7 @@ export default function Landing() {
               
 
           </div>
-          <div className=" text-center " style={{color:" #959CB6", fontFamily:"Roboto"}}>
+          <div className="text-center position-absolute bottom-0 start-0 end-0 " style={{color:" #959CB6", fontFamily:"Roboto"}}>
   © 2023 ALL RIGHTS RESERVED
 </div>
      </div>
