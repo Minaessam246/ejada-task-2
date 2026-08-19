@@ -11,8 +11,8 @@ export default function Navbar() {
 <ul className=' d-flex'>
     <li className='list-unstyled' > <NavLink className='text-white m-2  text-decoration-none' to="landing">task-1</NavLink> </li>
     <li className='list-unstyled'> <NavLink className='text-white m-2  text-decoration-none' to="home">task-2</NavLink> </li>
-    <li className='list-unstyled' > <NavLink className='text-white m-2  text-decoration-none' to="parent">Parent</NavLink> </li>
-    <li className='list-unstyled' > <NavLink className='text-white m-2  text-decoration-none' to="gallery">Gallery</NavLink> </li>
+    <li className='list-unstyled' > <NavLink className='text-white m-2  text-decoration-none' to="parent"></NavLink> </li>
+    <li className='list-unstyled' > <NavLink className='text-white m-2  text-decoration-none' to="gallery"></NavLink> </li>
   
   
   
