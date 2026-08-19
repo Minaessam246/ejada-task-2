@@ -17,7 +17,7 @@ export default function Home() {
 }
   const isDraw = !winner && board.every(cell => cell !== "")
 
-  function handleClick(i) {
+  function play(i) {
     if (board[i] || winner) return
     const newBoard = [...board]
     newBoard[i] = isX ? "X" : "O"
@@ -44,7 +44,7 @@ export default function Home() {
         {board.map((cell, i) => (
           <button
             key={i}
-            onClick={() => handleClick(i)}
+            onClick={() => play(i)}
             className={`  fw-bold border-1 ${winLine.includes(i)?"bg-secondary":"bg-dark"} ${isDraw ? "text-warning" : winLine.includes(i) ? "text-success" : "text-white"}  border`}
             style={{
               height: "180px",
